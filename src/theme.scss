@@ -1,5 +1,12 @@
+// @import
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat'); 
+// Variables
+$clr-font: 'Montserrat', sans-serif;
+$clr-altFont: 'Lato', sans-serif;
 .main-container {
     .header {
+        font-family: $clr-altFont;
+        text-transform: uppercase;
         .branding {
             .logo {
                 width: 1.5rem;

@@ -7,6 +7,6 @@ import { HttpClient } from '@angular/common/http';
 export class AppService {
     constructor(private http: HttpClient) { }
     getInterfaz() {
-        return this.http.get('./assets/interfaz.json');
+        return this.http.get('./assets/contenido.json');
     } 
 }

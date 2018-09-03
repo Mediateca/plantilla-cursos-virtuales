@@ -1,5 +1,5 @@
-<div class="main-container">
-    <header class="header" [ngClass]="'header-'+branding?.colorPrimario">
+<clr-main-container>
+    <clr-header class="header" [ngClass]="'header-'+branding?.colorPrimario">
         <div class="branding">
             <a href="http://bascafe.org/index.html" target="_blank" class="nav-link">
                 <div class="logo"></div>
@@ -8,19 +8,19 @@
                 </span>
             </a>
         </div>
-        <div class="header-nav">
+        <div class="header-nav" [clr-nav-level]="1">
             <span *ngFor="let modulo of modulos; index as i; first as inicial">
                 <a [routerLink]="['/m1']" [queryParams]="{modulo: i}" class="nav-link nav-text" *ngIf="i!=numModulo && !inicial">
-                    {{modulo}}
+                    {{modulo.titulo}}
                 </a>
                 <a [routerLink]="['/']" class="nav-link nav-text" *ngIf="i!=numModulo && inicial && componente!='/'">
-                    {{modulo}}
+                    {{modulo.titulo}}
                 </a>
                 <span class="active nav-link nav-text" *ngIf="i==numModulo || (inicial && componente=='/')">
-                    {{modulo}}
+                    {{modulo.titulo}}
                 </span>
             </span>
         </div>
-    </header>
+    </clr-header>
     <router-outlet></router-outlet>
-</div>
+</clr-main-container>

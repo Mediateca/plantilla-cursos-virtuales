@@ -23,4 +23,20 @@ $clr-altFont: 'Lato', sans-serif;
             }
         }
     }
+    .content-container {
+        .sidenav {
+            .sidenav-content {
+                .nav-group {
+                    label.active {
+                        background: $clr-global-selection-color;
+                        margin: 0 0 0 1.25rem;
+                        padding-left: 0.5rem;
+                        display: inline-block;
+                        border-radius: $clr-global-borderradius 0 0 $clr-global-borderradius;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }

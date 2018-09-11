@@ -11,13 +11,16 @@ export class AppComponent {
     elementos: any;
     modulos: Array<string>;
     branding: Object;
-    numModulo: String;
+    numModulo: Number;
     componente: String;
     constructor(private appService: AppService,
                  private route: ActivatedRoute,
-                private ruta: Router) {
+                 private ruta: Router) {
         this.route.queryParams.subscribe(params => {
-            this.numModulo = params['modulo'];
+            this.numModulo = 0;
+            if (params['modulo']) {
+                this.numModulo = params['modulo'];
+            }
         });
         this.ruta.events.subscribe(ev => {
             this.componente = this.ruta.url.split('?')[0];

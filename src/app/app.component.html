@@ -10,13 +10,13 @@
         </div>
         <div class="header-nav" [clr-nav-level]="1">
             <span *ngFor="let modulo of modulos; index as i; first as inicial">
-                <a [routerLink]="['/m1']" [queryParams]="{modulo: i}" class="nav-link nav-text" *ngIf="i!=numModulo && !inicial">
+                <a [routerLink]="['/m1']" [queryParams]="{modulo: i, mom: 0, sec: 0}" class="nav-link nav-text" *ngIf="i!=numModulo && !inicial">
                     {{modulo.titulo}}
                 </a>
                 <a [routerLink]="['/']" class="nav-link nav-text" *ngIf="i!=numModulo && inicial && componente!='/'">
                     {{modulo.titulo}}
                 </a>
-                <span class="active nav-link nav-text" *ngIf="i==numModulo || (inicial && componente=='/')">
+                <span class="active nav-link nav-text" *ngIf="(i==numModulo && componente!='/') || (inicial && componente=='/')">
                     {{modulo.titulo}}
                 </span>
             </span>

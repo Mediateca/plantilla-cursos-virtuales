@@ -8,19 +8,23 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppService } from './app.service';
 import { IntroComponent } from './intro/intro.component';
 import { M1Component } from './m1/m1.component';
+import { SanitizeHtmlPipe } from './sanitize-html.pipe';
+import { MdtkModule } from './mdtk/mdtk.module';
 
 @NgModule({
     declarations: [
         AppComponent,
         IntroComponent,
-        M1Component
+        M1Component,
+        SanitizeHtmlPipe
     ],
     imports: [
         BrowserModule,
         ClarityModule,
         BrowserAnimationsModule,
         AppRoutingModule,
-        HttpClientModule
+        HttpClientModule,
+        MdtkModule
     ],
     providers: [AppService],
     bootstrap: [AppComponent]

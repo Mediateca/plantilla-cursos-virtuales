@@ -5,20 +5,18 @@
             <div class="clr-col-lg-10 clr-col-12">
                 <div class="clr-row">
                     <div class="clr-col-12">
-                        <h1>{{modulos[intro].momentos[momentoActual].titulo}}</h1>
-                        <div [innerHTML]="modulos[intro].momentos[momentoActual].contenido"></div>
+                        <h1>{{modulos[intro].momentos[momentoActual].titulo}} {{elementos.branding.nombreCurso}}</h1>
+                        <div [innerHTML]="modulos[intro].momentos[momentoActual].contenido | sanitizeHtml: 'html'"></div>
+                        <mdtk-linea-tiempo>Algún contenido</mdtk-linea-tiempo>
                     </div><!-- /.clr-col-12 -->
                     <div class="clr-col-lg-4 clr-col-md-6 clr-col-12" *ngFor="let modulo of modulos | slice:1; index as i; first as inicial">
-                        <a class="card clickable">
+                        <a class="card clickable" [routerLink]="['/m1']" [queryParams]="{modulo: i+1}">
                             <div class="card-header">
                                 {{modulo.titulo}}
                             </div><!-- /.card-header -->
                             <div class="card-block">
-                                <div class="card-title">
-                                    Block
-                                </div><!-- /.card-title -->
                                 <div class="card-text">
-                                    ...
+                                    {{modulo.intro}}
                                 </div><!-- /.card-text -->
                             </div><!-- /.card-block -->
                         </a><!-- /.card -->
@@ -30,12 +28,17 @@
     </main>
     <nav class="sidenav" [clr-nav-level]="2" *ngIf="numMomentos > 1">
         <section class="sidenav-content">
-            <section class="nav-group" *ngFor="let momento of modulos[intro].momentos; index as i; first as inicial">
-                <input id="tabexample1" type="checkbox">
-                <label for="tabexample1">{{momento}}</label>
+            <section class="nav-group" *ngFor="let momento of momentos; index as i; first as inicial">
+                <input id="tabexample{{i}}" type="checkbox">
+                <label for="tabexample{{i}}">
+                    {{momento.titulo}}
+                </label>
                 <ul class="nav-list">
-                    <li><a class="nav-link">Link 1</a></li>
-                    <li><a class="nav-link">Link 2</a></li>
+                    <li *ngFor="let seccion of momento.secciones; index as e; first as inicial">
+                        <a class="nav-link" [routerLink]="['/m1']" [queryParams]="{modulo: numModulo, mom: i, sec: e}">
+                            {{seccion.titulo}}
+                        </a>
+                    </li>
                 </ul>
             </section>
         </section>

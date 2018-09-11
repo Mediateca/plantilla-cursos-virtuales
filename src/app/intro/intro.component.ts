@@ -13,6 +13,7 @@ export class IntroComponent implements OnInit {
     numMomentos: Number;
     momentoActual: Number;
     intro: Number = 0;
+    html: any;
     constructor(private appService: AppService,
                  private route: ActivatedRoute) {
         this.route.queryParams.subscribe(params => {
@@ -27,6 +28,11 @@ export class IntroComponent implements OnInit {
             this.elementos = data;
             this.modulos = this.elementos.modulos;
             this.numMomentos = this.modulos[0].momentos.length;
+            /*
+            this.appService.getContenido('bienvenida').subscribe(html => {
+                this.html = html;
+            });
+            */
         });
-    }
+    });
 }

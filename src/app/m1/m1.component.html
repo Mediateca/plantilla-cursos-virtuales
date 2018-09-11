@@ -1,20 +1,26 @@
-<div class="content-container">
+<div class="content-container" *ngIf="modulos">
     <main class="content-area">
         <div class="clr-row">
             <div class="clr-col-12">
-                <h1>Título</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum, ante at venenatis vestibulum, libero augue imperdiet lorem, vitae mattis lacus quam accumsan justo. Donec efficitur nunc dui, et dignissim enim venenatis vitae. Sed quis leo non leo pellentesque rutrum. Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor.</p>
+                <h1>{{modulos[numModulo].momentos[momentoActual].secciones[numSeccion].titulo}}</h1>
+                <div [innerHTML]="modulos[numModulo].momentos[momentoActual].secciones[numSeccion].contenido | sanitizeHtml: 'html'"></div>
             </div>
         </div>
     </main>
-    <nav class="sidenav" [clr-nav-level]="2">
+    <nav class="sidenav" [clr-nav-level]="2" *ngIf="modulos[numModulo].momentos.length > 1">
         <section class="sidenav-content">
-            <section class="nav-group" *ngFor="let momento of momentos; index as i; first as inicial">
-                <input id="tabexample1" type="checkbox">
-                <label for="tabexample1">{{momento}}</label>
+            <section class="nav-group" *ngFor="let momento of modulos[numModulo].momentos; index as i; first as inicial">
+                <input id="tabexample{{i}}" type="checkbox">
+                <label for="tabexample{{i}}"> <!--[ngClass]="{'active': momentoActual==i}"-->
+                    {{momento.titulo}}
+                    <clr-icon shape="caret right" *ngIf="momentoActual==i"></clr-icon>
+                </label>
                 <ul class="nav-list">
-                    <li><a class="nav-link">Link 1</a></li>
-                    <li><a class="nav-link">Link 2</a></li>
+                    <li *ngFor="let seccion of momento.secciones; index as e; first as inicial">
+                        <a class="nav-link" [routerLink]="['/m1']" [queryParams]="{modulo: numModulo, mom: i, sec: e}" [ngClass]="{'active': numSeccion==e && momentoActual==i}">
+                            {{seccion.titulo}}
+                        </a>
+                    </li>
                 </ul>
             </section>
         </section>

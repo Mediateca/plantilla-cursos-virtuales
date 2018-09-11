@@ -1,29 +1,219 @@
 {
+    "branding": {
+        "tituloLargo": "BASC Café Colombia",
+        "tituloCorto": "BASC",
+        "colorPrimario": 3,
+        "nombreCurso": "Curso Virtual en Emprendimiento"
+    },
     "modulos": [
         {
             "titulo": "Bienvenida al curso",
             "momentos": [
                 {
                     "titulo": "Bienvenido al ",
-                    "contenido": "Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. Sed condimentum, ante at venenatis vestibulum, libero augue imperdiet lorem, vitae mattis lacus quam accumsan justo. Donec efficitur nunc dui, et dignissim enim venenatis vitae. Sed quis <span style=\"text-decoration: underline\">leo non leo pellentesque</span> rutrum. Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                    "contenido": "<p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. Sed condimentum, ante at venenatis vestibulum, libero augue imperdiet lorem, vitae mattis lacus quam accumsan justo. Donec efficitur nunc dui, et dignissim enim venenatis vitae. Sed quis <u>leo non leo pellentesque</u> rutrum.</p><mdtk-linea-tiempo>Otro contenido</mdtk-linea-tiempo><p>Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor.</p><clr-icon shape=\"info-circle\" size=\"24\"></clr-icon>"
                 }
             ]
         },
-        {"titulo": "Módulo 1"},
-        {"titulo": "Módulo 2"},
-        {"titulo": "Módulo 3"},
-        {"titulo": "Módulo 4"}
-    ],
-    "momentos": [
-        "Antes de iniciar",
-        "Alistemos herramientas",
-        "Demostremos habilidades",
-        "Evaluemos"
-    ],
-    "branding": {
-        "tituloLargo": "BASC Café Colombia",
-        "tituloCorto": "BASC",
-        "colorPrimario": 3,
-        "nombreCurso": "Curso Virtual en Emprendimiento"
-    }
+        {
+            "titulo": "Módulo 1",
+            "intro": "Módulo introductorio",
+            "momentos": [
+                {
+                    "titulo": "Antes de iniciar",
+                    "intro": "Momento para reflexionar y pensar las cosas",
+                    "secciones": [
+                        {
+                            "titulo": "NotiBASC",
+                            "contenido": "<p>Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p><mt-linea-tiempo>Contenido</mt-linea-tiempo><p>Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor.</p>"
+                        },
+                        {
+                            "titulo": "Presaberes",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Alistemos herramientas",
+                    "intro": "Momento de contenidos",
+                    "secciones": [
+                        {
+                            "titulo": "Contenidos principales",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Demostremos habilidades",
+                    "intro": "Momento pre-evaluarse",
+                    "secciones": [
+                        {
+                            "titulo": "Autoevaluación",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Evaluemos",
+                    "intro": "Momento para evaluar",
+                    "secciones": [
+                        {
+                            "titulo": "Evaluación",
+                            "contenido": "Ingrese a la evaluación en este vínculo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Módulo 2",
+            "intro": "Módulo sobre las bases del emprendimiento",
+            "momentos": [
+                {
+                    "titulo": "Antes de iniciar",
+                    "intro": "Momento para reflexionar y pensar las cosas",
+                    "secciones": [
+                        {
+                            "titulo": "NotiBASC",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        },
+                        {
+                            "titulo": "Presaberes",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Alistemos herramientas",
+                    "intro": "Momento de contenidos",
+                    "secciones": [
+                        {
+                            "titulo": "Contenidos principales",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Demostremos habilidades",
+                    "intro": "Momento pre-evaluarse",
+                    "secciones": [
+                        {
+                            "titulo": "Autoevaluación",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Evaluemos",
+                    "intro": "Momento para evaluar",
+                    "secciones": [
+                        {
+                            "titulo": "Evaluación",
+                            "contenido": "Ingrese a la evaluación en este vínculo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Módulo 3",
+            "intro": "Módulo de desarrollo temático principal",
+            "momentos": [
+                {
+                    "titulo": "Antes de iniciar",
+                    "intro": "Momento para reflexionar y pensar las cosas",
+                    "secciones": [
+                        {
+                            "titulo": "NotiBASC",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        },
+                        {
+                            "titulo": "Presaberes",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Alistemos herramientas",
+                    "intro": "Momento de contenidos",
+                    "secciones": [
+                        {
+                            "titulo": "Contenidos principales",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Demostremos habilidades",
+                    "intro": "Momento pre-evaluarse",
+                    "secciones": [
+                        {
+                            "titulo": "Autoevaluación",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Evaluemos",
+                    "intro": "Momento para evaluar",
+                    "secciones": [
+                        {
+                            "titulo": "Evaluación",
+                            "contenido": "Ingrese a la evaluación en este vínculo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Módulo 4",
+            "intro": "Módulo de finalización del curso",
+            "momentos": [
+                {
+                    "titulo": "Antes de iniciar",
+                    "intro": "Momento para reflexionar y pensar las cosas",
+                    "secciones": [
+                        {
+                            "titulo": "NotiBASC",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        },
+                        {
+                            "titulo": "Presaberes",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Alistemos herramientas",
+                    "intro": "Momento de contenidos",
+                    "secciones": [
+                        {
+                            "titulo": "Contenidos principales",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Demostremos habilidades",
+                    "intro": "Momento pre-evaluarse",
+                    "secciones": [
+                        {
+                            "titulo": "Autoevaluación",
+                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Evaluemos",
+                    "intro": "Momento para evaluar",
+                    "secciones": [
+                        {
+                            "titulo": "Evaluación",
+                            "contenido": "Ingrese a la evaluación en este vínculo"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

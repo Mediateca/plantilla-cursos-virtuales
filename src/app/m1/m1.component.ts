@@ -9,11 +9,11 @@ import { AppService } from '../app.service';
 })
 export class M1Component implements OnInit {
     numModulo: Number;
-    modulos: Array<string>;
+    elementos: any;
+    modulos: Array<any> = [];
     momentoActual: Number;
     numSeccion: Number;
-    constructor(private appService: AppService,
-                 private route: ActivatedRoute) {
+    constructor(private appService: AppService, private route: ActivatedRoute) {
         this.route.queryParams.subscribe(params => {
             this.numModulo = 1;
             this.momentoActual = 0;
@@ -31,7 +31,8 @@ export class M1Component implements OnInit {
     }
     ngOnInit() {
         this.appService.getInterfaz().subscribe(data => {
-            this.modulos = data.modulos;
+            this.elementos = data;
+            this.modulos = this.elementos.modulos;
         });
     }
 }

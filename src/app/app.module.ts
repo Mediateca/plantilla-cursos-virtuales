@@ -1,32 +1,37 @@
+import { NgModule, Injector } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppComponent } from './app.component';
-import { ClarityModule } from '@clr/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AppRoutingModule } from './/app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
-import { AppService } from './app.service';
+import { createCustomElement } from '@angular/elements';
+import { ClarityModule } from '@clr/angular';
+import { AppRoutingModule } from './/app-routing.module';
+import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component';
 import { M1Component } from './m1/m1.component';
+import { AppService } from './app.service';
 import { SanitizeHtmlPipe } from './sanitize-html.pipe';
-import { MdtkModule } from './mdtk/mdtk.module';
+import { DestacadoComponent } from './mdtk/destacado/destacado.component';
+import { InsertaHTMLDirective } from './mdtk/inserta-html.directive';
 
 @NgModule({
     declarations: [
         AppComponent,
         IntroComponent,
         M1Component,
-        SanitizeHtmlPipe
+        SanitizeHtmlPipe,
+        DestacadoComponent,
+        InsertaHTMLDirective
     ],
     imports: [
         BrowserModule,
         ClarityModule,
         BrowserAnimationsModule,
         AppRoutingModule,
-        HttpClientModule,
-        MdtkModule
+        HttpClientModule
     ],
     providers: [AppService],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
+    exports: [DestacadoComponent],
+    entryComponents: [DestacadoComponent]
 })
 export class AppModule { }

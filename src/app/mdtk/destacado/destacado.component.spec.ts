@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LineaTiempoComponent } from './linea-tiempo.component';
+import { DestacadoComponent } from './destacado.component';
 
-describe('LineaTiempoComponent', () => {
-  let component: LineaTiempoComponent;
-  let fixture: ComponentFixture<LineaTiempoComponent>;
+describe('DestacadoComponent', () => {
+  let component: DestacadoComponent;
+  let fixture: ComponentFixture<DestacadoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LineaTiempoComponent ]
+      declarations: [ DestacadoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LineaTiempoComponent);
+    fixture = TestBed.createComponent(DestacadoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -14,7 +14,8 @@ export class IntroComponent implements OnInit {
     momentoActual: Number;
     intro: Number = 0;
     html: any;
-    constructor(private appService: AppService, private route: ActivatedRoute) {
+    constructor(private appService: AppService,
+                 private route: ActivatedRoute) {
         this.route.queryParams.subscribe(params => {
             this.momentoActual = 0;
             if (params['mom']) {

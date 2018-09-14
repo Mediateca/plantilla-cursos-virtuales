@@ -11,7 +11,6 @@ import { M1Component } from './m1/m1.component';
 import { AppService } from './app.service';
 import { SanitizeHtmlPipe } from './sanitize-html.pipe';
 import { DestacadoComponent } from './mdtk/destacado/destacado.component';
-import { InsertaHTMLDirective } from './mdtk/inserta-html.directive';
 
 @NgModule({
     declarations: [
@@ -19,8 +18,7 @@ import { InsertaHTMLDirective } from './mdtk/inserta-html.directive';
         IntroComponent,
         M1Component,
         SanitizeHtmlPipe,
-        DestacadoComponent,
-        InsertaHTMLDirective
+        DestacadoComponent
     ],
     imports: [
         BrowserModule,

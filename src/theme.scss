@@ -3,6 +3,15 @@
 // Variables
 $clr-font: 'Montserrat', sans-serif;
 $clr-altFont: 'Lato', sans-serif;
+$color-primario-claro: #D0ACE4;
+$color-primario-oscuro: #4D007A;
+$color-secundario-claro: #AC75C6;
+$color-secundario-oscuro: #8939AD;
+$color-neutro-claro: #C1CDD4;
+$color-neutro-oscuro: #61717D;
+$blanco: #fff;
+$negro: #000;
+$tamano-imagen-destacado: 5rem;
 .main-container {
     clr-header {
         font-family: $clr-altFont;
@@ -24,6 +33,25 @@ $clr-altFont: 'Lato', sans-serif;
         }
     }
     .content-container {
+        .content-area {
+            .seccion {
+                .destacado {
+                    background-color: $color-secundario-oscuro;
+                    color: $blanco;
+                    .card-media-block {
+                        .card-media-title {
+                            color: $blanco;
+                        }
+                        .card-media-image {
+                            height: $tamano-imagen-destacado;
+                            width: $tamano-imagen-destacado;
+                            max-height: $tamano-imagen-destacado;
+                            max-width: $tamano-imagen-destacado;
+                        }
+                    }
+                }
+            }
+        }
         .sidenav {
             .sidenav-content {
                 .nav-group {

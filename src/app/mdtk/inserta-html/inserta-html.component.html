@@ -1,0 +1,4 @@
+<div class="seccion" *ngFor="let bloque of bloques" [ngSwitch]="bloque.tipo">
+    <mdtk-destacado *ngSwitchCase="'destacado'" [contenido]="bloque.contenido" [tipo]="bloque.tipo"></mdtk-destacado>
+    <mdtk-texto-plano *ngSwitchCase="'texto-plano'" [contenido]="bloque.contenido" [tipo]="bloque.tipo"></mdtk-texto-plano>
+</div>

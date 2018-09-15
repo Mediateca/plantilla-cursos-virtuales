@@ -6,7 +6,7 @@
                 <div class="clr-row">
                     <div class="clr-col-12">
                         <h1>{{modulos[intro].momentos[momentoActual].titulo}} {{elementos.branding.nombreCurso}}</h1>
-                        <div [innerHTML]="modulos[intro].momentos[momentoActual].contenido | sanitizeHtml: 'html'"></div>
+                        <mdtk-inserta-html [bloques]="modulos[intro].momentos[momentoActual].componentes"></mdtk-inserta-html>
                     </div><!-- /.clr-col-12 -->
                     <div class="clr-col-lg-4 clr-col-md-6 clr-col-12" *ngFor="let modulo of modulos | slice:1; index as i; first as inicial">
                         <a class="card clickable" [routerLink]="['/m1']" [queryParams]="{modulo: i+1}">

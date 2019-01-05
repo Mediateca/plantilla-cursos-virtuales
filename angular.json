@@ -19,13 +19,12 @@
                         "polyfills": "src/polyfills.ts",
                         "tsConfig": "src/tsconfig.app.json",
                         "assets": [
-                            "src/favicon.ico",
-                            "src/assets/interfaz.json",
+                            "src/favicon.ico"
                             "src/assets"
                         ],
                         "styles": [
                             "node_modules/@clr/icons/clr-icons.min.css",
-                            //"node_modules/@clr/ui/clr-ui.min.css",
+                            "node_modules/@clr/ui/clr-ui.min.css",
                             "src/styles.css",
                             "src/styles.scss"
                         ],

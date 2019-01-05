@@ -13,6 +13,7 @@ import { SanitizeHtmlPipe } from './sanitize-html.pipe';
 import { InsertaHtmlComponent } from './mdtk/inserta-html/inserta-html.component';
 import { TextoPlanoComponent } from './mdtk/texto-plano/texto-plano.component';
 import { DestacadoComponent } from './mdtk/destacado/destacado.component';
+import { TituloHeroicoComponent } from './mdtk/titulo-heroico/titulo-heroico.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { DestacadoComponent } from './mdtk/destacado/destacado.component';
         SanitizeHtmlPipe,
         InsertaHtmlComponent,
         DestacadoComponent,
-        TextoPlanoComponent
+        TextoPlanoComponent,
+        TituloHeroicoComponent
     ],
     imports: [
         BrowserModule,
@@ -33,6 +35,6 @@ import { DestacadoComponent } from './mdtk/destacado/destacado.component';
     ],
     providers: [AppService],
     bootstrap: [AppComponent],
-    exports: [InsertaHtmlComponent, DestacadoComponent, TextoPlanoComponent]
+    exports: [InsertaHtmlComponent, DestacadoComponent, TextoPlanoComponent, TituloHeroicoComponent]
 })
 export class AppModule { }

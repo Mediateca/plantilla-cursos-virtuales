@@ -1,11 +1,12 @@
 <div class="card destacado">
     <div class="card-block">
-        <div class="card-media-block">
-            <img src="../assets/personajes/m-senala.svg" class="card-media-image" *ngIf="contenido.posicionCabeza=='izquierda'">
-            <div class="card-media-description">
-                <h2 class="card-media-title">{{contenido.titulo}}</h2>
+        <div class="clr-row titulo">
+            <div class="clr-col" [ngClass]="{'clr-order-1': !contenido.cabezaIzq, 'clr-order-2': contenido.cabezaIzq}">
+                <h2 class="card-media-title" [ngClass]="{'derecha': !contenido.cabezaIzq}">{{contenido.titulo}}</h2>
             </div>
-            <img src="../assets/personajes/m-senala.svg" class="card-media-image" *ngIf="contenido.posicionCabeza=='derecha'">
+            <div class="clr-col-2" [ngClass]="{'clr-order-1': contenido.cabezaIzq, 'clr-order-2': !contenido.cabezaIzq}">
+                <img src="../assets/personajes/m-senala.svg">
+            </div>
         </div>
         <div class="card-text" [innerHTML]="contenido.texto | sanitizeHtml: 'html'"></div>
     </div>

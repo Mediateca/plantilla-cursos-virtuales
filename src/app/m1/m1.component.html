@@ -3,7 +3,7 @@
         <div class="clr-row">
             <div class="clr-col-12">
                 <h1>{{modulos[numModulo].momentos[momentoActual].secciones[numSeccion].titulo}}</h1>
-                <div [innerHTML]="modulos[numModulo].momentos[momentoActual].secciones[numSeccion].contenido | sanitizeHtml: 'html'"></div>
+                <mdtk-inserta-html [bloques]="modulos[numModulo].momentos[momentoActual].secciones[numSeccion].componentes"></mdtk-inserta-html>
             </div>
         </div>
     </main>

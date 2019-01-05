@@ -1,0 +1,7 @@
+.card.destacado .titulo img {
+    width: 75%;
+    height: auto;
+}
+.card.destacado .titulo .card-media-title.derecha {
+    text-align: right;
+}

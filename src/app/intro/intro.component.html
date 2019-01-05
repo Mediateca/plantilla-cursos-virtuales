@@ -1,13 +1,15 @@
 <div class="content-container">
     <main class="content-area" *ngIf="modulos[intro]">
+        <mdtk-titulo-heroico [titulo]="modulos[intro].momentos[momentoActual].titulo" [nombreCurso]="elementos.branding.nombreCurso"></mdtk-titulo-heroico>
         <div class="clr-row">
             <div class="clr-col-lg-1"></div>
             <div class="clr-col-lg-10 clr-col-12">
                 <div class="clr-row">
                     <div class="clr-col-12">
-                        <h1>{{modulos[intro].momentos[momentoActual].titulo}} {{elementos.branding.nombreCurso}}</h1>
                         <mdtk-inserta-html [bloques]="modulos[intro].momentos[momentoActual].componentes"></mdtk-inserta-html>
                     </div><!-- /.clr-col-12 -->
+                </div><!-- /.clr-row -->
+                <div class="clr-row">
                     <div class="clr-col-lg-4 clr-col-md-6 clr-col-12" *ngFor="let modulo of modulos | slice:1; index as i; first as inicial">
                         <a class="card clickable" [routerLink]="['/m1']" [queryParams]="{modulo: i+1}">
                             <div class="card-header">
@@ -20,7 +22,7 @@
                             </div><!-- /.card-block -->
                         </a><!-- /.card -->
                     </div><!-- /.clr-col-lg-4 -->
-                </div>
+                </div><!-- /.clr-row -->
             </div><!-- /.clr-col-lg-10 -->
             <div class="clr-col-lg-1"></div>
         </div>

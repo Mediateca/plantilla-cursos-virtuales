@@ -22,8 +22,8 @@
                             "tipo": "destacado",
                             "contenido": {
                                 "titulo": "¡No olvides!",
-                                "texto": "Vivamus nisl erat, vestibulum vitae posuere eget, interdum eu lectus. Vestibulum sodales dignissim turpis eu efficitur. Nulla tellus enim, imperdiet non sapien et, aliquet pretium turpis. Nulla nec consequat nulla.",
-                                "posicionCabeza": "izquierda"
+                                "texto": "Vivamus nisl erat, vestibulum vitae posuere eget, interdum eu lectus. Vestibulum sodales dignissim turpis eu efficitur. Nulla tellus enim, imperdiet non sapien et, aliquet pretium turpis. Nulla nec consequat nulla. Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                "cabezaIzq": true
                             }
                         }
                     ]
@@ -40,11 +40,41 @@
                     "secciones": [
                         {
                             "titulo": "NotiBASC",
-                            "contenido": "<p>Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p><mt-linea-tiempo>Contenido</mt-linea-tiempo><p>Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor.</p>"
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Noticias: una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         },
                         {
                             "titulo": "Presaberes",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Presaberes. Una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -54,7 +84,22 @@
                     "secciones": [
                         {
                             "titulo": "Contenidos principales",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Todos los contenidos, largamente. Una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -64,7 +109,14 @@
                     "secciones": [
                         {
                             "titulo": "Autoevaluación",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "<strong>¡¡Evalúate!!</strong>."
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -74,7 +126,14 @@
                     "secciones": [
                         {
                             "titulo": "Evaluación",
-                            "contenido": "Ingrese a la evaluación en este vínculo"
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Ve a la evaluación."
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -90,11 +149,41 @@
                     "secciones": [
                         {
                             "titulo": "NotiBASC",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Noticias: una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         },
                         {
                             "titulo": "Presaberes",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Presaberes. Una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -104,7 +193,22 @@
                     "secciones": [
                         {
                             "titulo": "Contenidos principales",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Todos los contenidos, largamente. Una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -114,7 +218,14 @@
                     "secciones": [
                         {
                             "titulo": "Autoevaluación",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "<strong>¡¡Evalúate!!</strong>."
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -124,7 +235,14 @@
                     "secciones": [
                         {
                             "titulo": "Evaluación",
-                            "contenido": "Ingrese a la evaluación en este vínculo"
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Ve a la evaluación."
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -140,11 +258,41 @@
                     "secciones": [
                         {
                             "titulo": "NotiBASC",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Noticias: una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         },
                         {
                             "titulo": "Presaberes",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Presaberes. Una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -154,7 +302,22 @@
                     "secciones": [
                         {
                             "titulo": "Contenidos principales",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Todos los contenidos, largamente. Una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -164,7 +327,14 @@
                     "secciones": [
                         {
                             "titulo": "Autoevaluación",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "<strong>¡¡Evalúate!!</strong>."
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -174,7 +344,14 @@
                     "secciones": [
                         {
                             "titulo": "Evaluación",
-                            "contenido": "Ingrese a la evaluación en este vínculo"
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Ve a la evaluación."
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -190,11 +367,41 @@
                     "secciones": [
                         {
                             "titulo": "NotiBASC",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Noticias: una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         },
                         {
                             "titulo": "Presaberes",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Presaberes. Una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -204,7 +411,22 @@
                     "secciones": [
                         {
                             "titulo": "Contenidos principales",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Todos los contenidos, largamente. Una línea de <strong>texto plano</strong>."
+                                    }
+                                },
+                                {
+                                    "tipo": "destacado",
+                                    "contenido": {
+                                        "titulo": "¡Destacado!",
+                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
+                                        "cabezaIzq": true
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -214,7 +436,14 @@
                     "secciones": [
                         {
                             "titulo": "Autoevaluación",
-                            "contenido": "Etiam fringilla metus id urna cursus, ac varius augue pellentesque. Nullam ac velit ac mauris vehicula pellentesque. Proin bibendum est quis urna vulputate pulvinar. Nunc dignissim malesuada dolor, non porta dolor. Sed ut ex fermentum lectus imperdiet lacinia dictum nec nisl. Etiam et nisi ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nunc ex, semper sit amet lorem ac, tincidunt viverra odio. Quisque eu nisi quis augue lobortis pretium id in ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur augue sit amet sapien consectetur, in lacinia diam tempor."
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "<strong>¡¡Evalúate!!</strong>."
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -224,7 +453,14 @@
                     "secciones": [
                         {
                             "titulo": "Evaluación",
-                            "contenido": "Ingrese a la evaluación en este vínculo"
+                            "componentes": [
+                                {
+                                    "tipo": "texto-plano",
+                                    "contenido": {
+                                        "texto": "Ve a la evaluación."
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }

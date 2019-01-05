@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
     styleUrls: ['./destacado.component.css']
 })
 export class DestacadoComponent implements OnInit {
-    @Input() contenido: any;
+    @Input() contenido: Array<any>;
     @Input() tipo: string;
     constructor() { }
     ngOnInit() {}

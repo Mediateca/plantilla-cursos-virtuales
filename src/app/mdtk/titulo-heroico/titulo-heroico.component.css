@@ -1,0 +1,19 @@
+.titulo-heroico {
+    margin: -1rem -1rem 2rem;
+    padding: 1rem 2rem;
+}
+.titulo-heroico .imagen {
+    height: 10rem;
+    width: auto;
+    display: block;
+}
+.titulo-heroico .titulo {
+    text-align: right;
+}
+.titulo-heroico .titulo .bienvenida,
+.titulo-heroico .titulo .nombre-curso {
+    display: block;
+}
+.titulo-heroico .titulo .nombre-curso {
+    font-weight: 800;
+}

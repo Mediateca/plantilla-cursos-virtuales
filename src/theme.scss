@@ -11,11 +11,13 @@ $color-neutro-claro: #C1CDD4;
 $color-neutro-oscuro: #61717D;
 $blanco: #fff;
 $negro: #000;
-$tamano-imagen-destacado: 5rem;
 .main-container {
     clr-header {
         font-family: $clr-altFont;
         text-transform: uppercase;
+        position: fixed;
+        top: 0;
+        width: 100%;
         .branding {
             .logo {
                 width: 1.5rem;
@@ -33,21 +35,17 @@ $tamano-imagen-destacado: 5rem;
         }
     }
     .content-container {
+        margin-top: 2.5rem;
         .content-area {
+            .titulo-heroico {
+                background-color: $color-primario-claro;
+            }
             .seccion {
                 .destacado {
                     background-color: $color-secundario-oscuro;
                     color: $blanco;
-                    .card-media-block {
-                        .card-media-title {
-                            color: $blanco;
-                        }
-                        .card-media-image {
-                            height: $tamano-imagen-destacado;
-                            width: $tamano-imagen-destacado;
-                            max-height: $tamano-imagen-destacado;
-                            max-width: $tamano-imagen-destacado;
-                        }
+                    .card-media-title {
+                        color: $blanco;
                     }
                 }
             }

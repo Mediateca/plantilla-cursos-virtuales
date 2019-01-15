@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="card-header">
+        {{contenido.titulo}}
+    </div>
+    <div [ngSwitch]="tipoMediaTag(contenido.tipo)" class="card-img">
+        <img *ngSwitchCase="'img'" [src]="contenido.ruta">
+    </div>
+    <div class="card-footer">
+        <p>{{contenido.pie}}</p>
+    </div>
+</div>

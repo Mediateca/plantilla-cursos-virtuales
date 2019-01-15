@@ -14,6 +14,7 @@ import { InsertaHtmlComponent } from './mdtk/inserta-html/inserta-html.component
 import { TextoPlanoComponent } from './mdtk/texto-plano/texto-plano.component';
 import { DestacadoComponent } from './mdtk/destacado/destacado.component';
 import { TituloHeroicoComponent } from './mdtk/titulo-heroico/titulo-heroico.component';
+import { MediaComponent } from './mdtk/media/media.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import { TituloHeroicoComponent } from './mdtk/titulo-heroico/titulo-heroico.com
         InsertaHtmlComponent,
         DestacadoComponent,
         TextoPlanoComponent,
-        TituloHeroicoComponent
+        TituloHeroicoComponent,
+        MediaComponent
     ],
     imports: [
         BrowserModule,

@@ -10,15 +10,18 @@ import { AppService } from '../app.service';
 export class IntroComponent implements OnInit {
     elementos: any;
     modulos: Array<any> = [];
-    numMomentos: Number;
-    momentoActual: Number;
-    intro: Number = 0;
+    numMomentos: number;
+    momentoActual: number = 0;
+    seccionActual: number = 0;
+    momentos: Array<any>;
+    intro: number = 0;
     constructor(private appService: AppService,
                  private route: ActivatedRoute) {
         this.route.queryParams.subscribe(params => {
             this.momentoActual = 0;
             if (params['mom']) {
                 this.momentoActual = params['mom'];
+                this.seccionActual = params['sec'];
             }
         });
     }
@@ -27,6 +30,8 @@ export class IntroComponent implements OnInit {
             this.elementos = data;
             this.modulos = this.elementos.modulos;
             this.numMomentos = this.modulos[0].momentos.length;
+            this.momentos = this.modulos[0].momentos;
+            console.log(this.modulos[this.intro].momentos[this.momentoActual].secciones[this.seccionActual].componentes);
         });
     }
 }

@@ -7,7 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class TextoPlanoComponent implements OnInit {
     @Input() contenido: Array<any>;
-    @Input() tipo: string;
     constructor() { }
     ngOnInit() {}
 }

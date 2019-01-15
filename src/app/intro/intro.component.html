@@ -6,7 +6,7 @@
             <div class="clr-col-lg-10 clr-col-12">
                 <div class="clr-row">
                     <div class="clr-col-12">
-                        <mdtk-inserta-html [bloques]="modulos[intro].momentos[momentoActual].componentes"></mdtk-inserta-html>
+                        <mdtk-inserta-html [bloques]="modulos[intro].momentos[momentoActual].secciones[seccionActual].componentes"></mdtk-inserta-html>
                     </div><!-- /.clr-col-12 -->
                 </div><!-- /.clr-row -->
                 <div class="clr-row">
@@ -30,13 +30,13 @@
     <nav class="sidenav" [clr-nav-level]="2" *ngIf="numMomentos > 1">
         <section class="sidenav-content">
             <section class="nav-group" *ngFor="let momento of momentos; index as i; first as inicial">
-                <input id="tabexample{{i}}" type="checkbox">
-                <label for="tabexample{{i}}">
+                <input id="tab{{i}}" type="checkbox">
+                <label for="tab{{i}}">
                     {{momento.titulo}}
                 </label>
                 <ul class="nav-list">
                     <li *ngFor="let seccion of momento.secciones; index as e; first as inicial">
-                        <a class="nav-link" [routerLink]="['/m1']" [queryParams]="{modulo: numModulo, mom: i, sec: e}">
+                        <a class="nav-link" [routerLink]="['/m1']" [queryParams]="{modulo: intro, mom: i, sec: e}">
                             {{seccion.titulo}}
                         </a>
                     </li>

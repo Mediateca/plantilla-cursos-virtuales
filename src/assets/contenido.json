@@ -1,470 +1,192 @@
 {
     "branding": {
-        "tituloLargo": "BASC Café Colombia",
-        "tituloCorto": "BASC",
         "colorPrimario": 3,
-        "nombreCurso": "Curso Virtual en Emprendimiento"
+        "nombreCurso": "Curso de Preguntas, quejas y reclamos",
+        "nombreCursoCorto": "PQR",
+        "tituloCorto": "PQR Client",
+        "tituloLargo": "Cliente del curso PQR"
     },
     "modulos": [
         {
-            "titulo": "Bienvenida al curso",
+            "intro": "Presentación general del curso, sus objetivos y alcances.",
             "momentos": [
                 {
-                    "titulo": "Bienvenido al ",
-                    "componentes": [
+                    "intro": "",
+                    "secciones": [
                         {
-                            "tipo": "texto-plano",
-                            "contenido": {
-                                "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus feugiat lacus, at consequat ipsum vehicula quis. <strong>Praesent viverra semper mattis</strong>. Integer rhoncus convallis fermentum. Maecenas varius imperdiet varius. Vivamus nisl erat, vestibulum vitae posuere eget, interdum eu lectus. Vestibulum sodales dignissim turpis eu efficitur. Nulla tellus enim, imperdiet non sapien et, aliquet pretium turpis. Nulla nec consequat nulla."
-                            }
+                            "componentes": [
+                                {
+                                    "contenido": {
+                                        "ampliable": true,
+                                        "nombre": "picography-statue.jpg",
+                                        "origen": "local",
+                                        "pie": "Pensando en las ventajas",
+                                        "ruta": "https://firebasestorage.googleapis.com/v0/b/generador-cursos-virtuales.appspot.com/o/VdEuxakyr3os27Lt3xjx%2Fmedias%2Fpicography-statue.jpg?alt=media&token=c1b25f13-46dd-4b9a-904d-2a8ddb6e311e",
+                                        "titulo": "Bienvenida al curso",
+                                        "tipo": "image/jpeg"
+                                    },
+                                    "tipo": "media"
+                                },
+                                {
+                                    "contenido": {
+                                        "texto": "<p class=\"ql-align-justify\">In volutpat aliquam dolor at finibus. Sed finibus magna nibh, in tempor urna tristique vel. Nam id lorem nec enim rhoncus pharetra nec nec sapien. Vivamus venenatis, nibh at volutpat dictum, lacus enim <strong>aliquet</strong> enim, gravida luctus sapien nisi eget sem. Vivamus a lorem placerat eros ultrices dignissim.</p><p class=\"ql-align-justify\">Vestibulum nec leo nisl. <strong>Pellentesque</strong> finibus quam mi, vitae gravida mi ornare vel. Sed venenatis ligula turpis, quis viverra neque consectetur et. Morbi a turpis vitae augue rutrum volutpat. <em>Duis convallis</em> efficitur erat, sed tincidunt arcu varius at. Praesent efficitur accumsan nisi facilisis vulputate.</p>"
+                                    },
+                                    "tipo": "texto-plano"
+                                },
+                                {
+                                    "contenido": {
+                                        "contenedores": [
+                                            {
+                                                "media": {
+                                                    "nombre": "DuFR76qU0AAeKMe.jpg",
+                                                    "origen": "url",
+                                                    "ruta": "https://pbs.twimg.com/media/DuFR76qU0AAeKMe.jpg",
+                                                    "tipo": "image/jpeg"
+                                                },
+                                                "texto": "<p>Dama Zonia</p>",
+                                                "titulo": "Dama Zonia"
+                                            },
+                                            {
+                                                "media": {
+                                                    "nombre": "Dtg_ks8UUAAYqrl.jpg",
+                                                    "origen": "url",
+                                                    "ruta": "https://pbs.twimg.com/media/Dtg_ks8UUAAYqrl.jpg",
+                                                    "tipo": "image/jpeg"
+                                                },
+                                                "texto": "<p>La increíble <strong>Dama Zonia</strong> y una amiga en navidad.</p>",
+                                                "titulo": "Dama Zonia y amiga"
+                                            },
+                                            {
+                                                "media": {
+                                                    "nombre": "5bXacdjwrjL5VXie.mp4?tag=5",
+                                                    "origen": "url",
+                                                    "ruta": "https://video.twimg.com/ext_tw_video/1069374736210190336/pu/vid/720x1280/5bXacdjwrjL5VXie.mp4?tag=5",
+                                                    "style": "",
+                                                    "tipo": "video/mp4"
+                                                },
+                                                "texto": "",
+                                                "titulo": "Video de Dama Zonia"
+                                            }
+                                        ],
+                                        "contenidos": [
+                                            {
+                                                "contenedor": 0,
+                                                "media": {
+                                                    "nombre": "20180927_200225.jpg",
+                                                    "origen": "local",
+                                                    "ruta": "https://firebasestorage.googleapis.com/v0/b/generador-cursos-virtuales.appspot.com/o/VdEuxakyr3os27Lt3xjx%2Fmedias%2F20180927_200225.jpg?alt=media&token=5e28526f-6b1f-4a4d-8231-facf59373da8",
+                                                    "style": {
+                                                        "transform": "rotate(270deg) translate(-100%, 0)",
+                                                        "transformOrigin": "top left"
+                                                    },
+                                                    "tipo": "image/jpeg"
+                                                },
+                                                "texto": "",
+                                                "titulo": "Oliver"
+                                            },
+                                            {
+                                                "contenedor": "1",
+                                                "media": {
+                                                    "media": "",
+                                                    "nombre": "0?e=1548892800&v=beta&t=0sBa_f7jKPGYGRv9pqb8KDagFfKalnUx7k4-83ZccLA",
+                                                    "origen": "url",
+                                                    "ruta": "https://media.licdn.com/dms/image/C4D03AQF6bDUKIz5_RQ/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=0sBa_f7jKPGYGRv9pqb8KDagFfKalnUx7k4-83ZccLA",
+                                                    "style": "",
+                                                    "tipo": "image/jpeg"
+                                                },
+                                                "texto": "",
+                                                "titulo": "Otro Oliver"
+                                            },
+                                            {
+                                                "contenedor": 0,
+                                                "media": {
+                                                    "media": "",
+                                                    "nombre": "MqVyu5_0_400x400.jpg",
+                                                    "origen": "url",
+                                                    "ruta": "https://pbs.twimg.com/profile_images/1044628203724263424/MqVyu5_0_400x400.jpg",
+                                                    "style": "",
+                                                    "tipo": "image/jpeg"
+                                                },
+                                                "texto": "",
+                                                "titulo": ""
+                                            }
+                                        ],
+                                        "texto": "",
+                                        "titulo": "",
+                                        "vertical": true
+                                    },
+                                    "tipo": "contenedores"
+                                }
+                            ],
+                            "titulo": "Introducción"
                         },
                         {
-                            "tipo": "destacado",
-                            "contenido": {
-                                "titulo": "¡No olvides!",
-                                "texto": "Vivamus nisl erat, vestibulum vitae posuere eget, interdum eu lectus. Vestibulum sodales dignissim turpis eu efficitur. Nulla tellus enim, imperdiet non sapien et, aliquet pretium turpis. Nulla nec consequat nulla. Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                "cabezaIzq": true
-                            }
+                            "componentes": [
+                                {
+                                    "contenido": {
+                                        "texto": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent odio felis, feugiat ullamcorper dui lobortis, mollis mattis augue. Praesent a est at magna convallis rhoncus id quis erat. Integer commodo mi accumsan posuere tristique. Pellentesque a nibh ut massa congue dapibus. In vulputate enim enim, et venenatis magna elementum a. Ut vestibulum nibh non ante ullamcorper, sed cursus ipsum bibendum. Integer vitae sollicitudin nunc. Integer eleifend nibh id elit aliquam aliquam. Nullam et finibus magna.</span></p>"
+                                    },
+                                    "tipo": "texto-plano"
+                                }
+                            ],
+                            "titulo": "Desarrollo del tema"
                         }
-                    ]
+                    ],
+                    "titulo": "Presentación del curso"
                 }
-            ]
+            ],
+            "titulo": "Presentación del curso"
         },
         {
-            "titulo": "Módulo 1",
-            "intro": "Módulo introductorio",
+            "intro": "Nociones básicas del curso.",
             "momentos": [
                 {
-                    "titulo": "Antes de iniciar",
-                    "intro": "Momento para reflexionar y pensar las cosas",
+                    "intro": "",
                     "secciones": [
                         {
-                            "titulo": "NotiBASC",
                             "componentes": [
                                 {
-                                    "tipo": "texto-plano",
                                     "contenido": {
-                                        "texto": "Noticias: una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
+                                        "texto": "<p class=\"ql-align-justify\">Nullam eget felis at nunc eleifend semper. Morbi vulputate mi ut augue hendrerit, vel laoreet massa tristique. Vestibulum congue venenatis nisl. Quisque finibus molestie sem, ac pharetra quam tincidunt ut. Etiam ut fermentum lorem. Nullam vitae purus nunc. Sed nisl ipsum, egestas a consectetur nec, iaculis vitae nibh. Ut molestie mattis volutpat. Nullam euismod vulputate libero, eget laoreet massa viverra et. Cras id faucibus nisl.</p><p class=\"ql-align-justify\"><br></p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque et justo at imperdiet. Curabitur pharetra finibus dignissim. Duis dictum aliquam mauris sit amet luctus. Suspendisse enim nibh, semper in quam at, lacinia rutrum tellus. Cras vel orci vel mauris volutpat hendrerit vitae nec purus. Pellentesque dictum nulla a risus ullamcorper congue.</p>"
+                                    },
+                                    "tipo": "texto-plano"
                                 }
-                            ]
+                            ],
+                            "titulo": "Introducción"
                         },
                         {
-                            "titulo": "Presaberes",
                             "componentes": [
                                 {
-                                    "tipo": "texto-plano",
                                     "contenido": {
-                                        "texto": "Presaberes. Una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
+                                        "texto": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent odio felis, feugiat ullamcorper dui lobortis, mollis mattis augue. Praesent a est at magna convallis rhoncus id quis erat. Integer commodo mi accumsan posuere tristique. Pellentesque a nibh ut massa congue dapibus. In vulputate enim enim, et venenatis magna elementum a. Ut vestibulum nibh non ante ullamcorper, sed cursus ipsum bibendum. Integer vitae sollicitudin nunc. Integer eleifend nibh id elit aliquam aliquam. Nullam et finibus magna.</span></p>"
+                                    },
+                                    "tipo": "texto-plano"
                                 }
-                            ]
+                            ],
+                            "titulo": "Desarrollo del tema"
                         }
-                    ]
+                    ],
+                    "titulo": "¿Qué sabemos del tema?"
                 },
                 {
-                    "titulo": "Alistemos herramientas",
-                    "intro": "Momento de contenidos",
+                    "intro": "Proceso de aplicación en la vida real.",
                     "secciones": [
                         {
-                            "titulo": "Contenidos principales",
                             "componentes": [
                                 {
-                                    "tipo": "texto-plano",
                                     "contenido": {
-                                        "texto": "Todos los contenidos, largamente. Una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
+                                        "texto": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Sed hendrerit dui a nibh placerat cursus. Vestibulum mollis dolor diam, vel sagittis mauris varius vel. Aenean in ligula fringilla, vulputate magna at, vulputate erat. Fusce a ultrices nisi.</span></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Quisque sagittis varius risus, eu porta erat ornare et. Fusce ac massa mollis lectus mollis pharetra. Duis ac ex eleifend massa mollis rutrum. Quisque ut felis tristique odio luctus consectetur in sit amet orci. Duis massa dolor, vestibulum eget eleifend vitae, mollis vel magna.</span></p>"
+                                    },
+                                    "tipo": "texto-plano"
                                 }
-                            ]
+                            ],
+                            "titulo": "Introducción"
                         }
-                    ]
-                },
-                {
-                    "titulo": "Demostremos habilidades",
-                    "intro": "Momento pre-evaluarse",
-                    "secciones": [
-                        {
-                            "titulo": "Autoevaluación",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "<strong>¡¡Evalúate!!</strong>."
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Evaluemos",
-                    "intro": "Momento para evaluar",
-                    "secciones": [
-                        {
-                            "titulo": "Evaluación",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Ve a la evaluación."
-                                    }
-                                }
-                            ]
-                        }
-                    ]
+                    ],
+                    "titulo": "¿Cómo aplicamos esta información?"
                 }
-            ]
-        },
-        {
-            "titulo": "Módulo 2",
-            "intro": "Módulo sobre las bases del emprendimiento",
-            "momentos": [
-                {
-                    "titulo": "Antes de iniciar",
-                    "intro": "Momento para reflexionar y pensar las cosas",
-                    "secciones": [
-                        {
-                            "titulo": "NotiBASC",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Noticias: una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "titulo": "Presaberes",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Presaberes. Una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Alistemos herramientas",
-                    "intro": "Momento de contenidos",
-                    "secciones": [
-                        {
-                            "titulo": "Contenidos principales",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Todos los contenidos, largamente. Una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Demostremos habilidades",
-                    "intro": "Momento pre-evaluarse",
-                    "secciones": [
-                        {
-                            "titulo": "Autoevaluación",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "<strong>¡¡Evalúate!!</strong>."
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Evaluemos",
-                    "intro": "Momento para evaluar",
-                    "secciones": [
-                        {
-                            "titulo": "Evaluación",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Ve a la evaluación."
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "titulo": "Módulo 3",
-            "intro": "Módulo de desarrollo temático principal",
-            "momentos": [
-                {
-                    "titulo": "Antes de iniciar",
-                    "intro": "Momento para reflexionar y pensar las cosas",
-                    "secciones": [
-                        {
-                            "titulo": "NotiBASC",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Noticias: una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "titulo": "Presaberes",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Presaberes. Una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Alistemos herramientas",
-                    "intro": "Momento de contenidos",
-                    "secciones": [
-                        {
-                            "titulo": "Contenidos principales",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Todos los contenidos, largamente. Una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Demostremos habilidades",
-                    "intro": "Momento pre-evaluarse",
-                    "secciones": [
-                        {
-                            "titulo": "Autoevaluación",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "<strong>¡¡Evalúate!!</strong>."
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Evaluemos",
-                    "intro": "Momento para evaluar",
-                    "secciones": [
-                        {
-                            "titulo": "Evaluación",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Ve a la evaluación."
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "titulo": "Módulo 4",
-            "intro": "Módulo de finalización del curso",
-            "momentos": [
-                {
-                    "titulo": "Antes de iniciar",
-                    "intro": "Momento para reflexionar y pensar las cosas",
-                    "secciones": [
-                        {
-                            "titulo": "NotiBASC",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Noticias: una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "titulo": "Presaberes",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Presaberes. Una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Alistemos herramientas",
-                    "intro": "Momento de contenidos",
-                    "secciones": [
-                        {
-                            "titulo": "Contenidos principales",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Todos los contenidos, largamente. Una línea de <strong>texto plano</strong>."
-                                    }
-                                },
-                                {
-                                    "tipo": "destacado",
-                                    "contenido": {
-                                        "titulo": "¡Destacado!",
-                                        "texto": "Una línea de texto destacado.<ul class=\"list\"><li>Ullamco Laboris</li><li>Consequat</li><li>Excepteur sint occaecat cupidatat non proident</li><li>Enim ad Minim</li></ul>",
-                                        "cabezaIzq": true
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Demostremos habilidades",
-                    "intro": "Momento pre-evaluarse",
-                    "secciones": [
-                        {
-                            "titulo": "Autoevaluación",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "<strong>¡¡Evalúate!!</strong>."
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Evaluemos",
-                    "intro": "Momento para evaluar",
-                    "secciones": [
-                        {
-                            "titulo": "Evaluación",
-                            "componentes": [
-                                {
-                                    "tipo": "texto-plano",
-                                    "contenido": {
-                                        "texto": "Ve a la evaluación."
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            ],
+            "titulo": "Nociones básicas"
         }
     ]
 }

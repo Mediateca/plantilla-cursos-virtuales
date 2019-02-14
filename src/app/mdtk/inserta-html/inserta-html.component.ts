@@ -1,12 +1,12 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'mdtk-inserta-html',
     templateUrl: './inserta-html.component.html',
     styles: []
 })
-export class InsertaHtmlComponent implements OnInit {
+export class InsertaHtmlComponent {
     @Input() bloques: Array<any>;
-    constructor() { }
-    ngOnInit() {}
+    @Input() saltoCol: Array<boolean>;
+    constructor() {}
 }

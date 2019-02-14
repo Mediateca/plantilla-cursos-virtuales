@@ -2,12 +2,10 @@
     <main class="content-area" *ngIf="modulos[intro]">
         <mdtk-titulo-heroico [titulo]="modulos[intro].momentos[momentoActual].titulo" [nombreCurso]="elementos.branding.nombreCurso"></mdtk-titulo-heroico>
         <div class="clr-row">
-            <div class="clr-col-lg-1"></div>
+            <div class="clr-col-lg-1">{{posCol | json}}</div>
             <div class="clr-col-lg-10 clr-col-12">
                 <div class="clr-row">
-                    <div class="clr-col-12">
-                        <mdtk-inserta-html [bloques]="modulos[intro].momentos[momentoActual].secciones[seccionActual].componentes"></mdtk-inserta-html>
-                    </div><!-- /.clr-col-12 -->
+                    <mdtk-inserta-html [saltoCol]="saltoCol" [bloques]="modulos[intro].momentos[momentoActual].secciones[seccionActual].componentes"></mdtk-inserta-html>
                 </div><!-- /.clr-row -->
                 <div class="clr-row">
                     <div class="clr-col-lg-4 clr-col-md-6 clr-col-12" *ngFor="let modulo of modulos | slice:1; index as i; first as inicial">

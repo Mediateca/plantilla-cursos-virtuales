@@ -4,8 +4,13 @@
     </div>
     <div [ngSwitch]="tipoMediaTag(contenido.tipo)" class="card-img">
         <img *ngSwitchCase="'img'" [src]="contenido.ruta">
+        <video *ngSwitchCase="'vid'" controls>
+            <source [src]="contenido.ruta" type="video/mp4">
+            Su navegador web no permite reproducir videos.
+        </video>
+        <img>
     </div>
-    <div class="card-footer">
+    <div class="card-footer" *ngIf="contenido.pie">
         <p>{{contenido.pie}}</p>
     </div>
 </div>

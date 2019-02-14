@@ -22,8 +22,22 @@
                                         "origen": "local",
                                         "pie": "Pensando en las ventajas",
                                         "ruta": "https://firebasestorage.googleapis.com/v0/b/generador-cursos-virtuales.appspot.com/o/VdEuxakyr3os27Lt3xjx%2Fmedias%2Fpicography-statue.jpg?alt=media&token=c1b25f13-46dd-4b9a-904d-2a8ddb6e311e",
+                                        "style": "",
                                         "titulo": "Bienvenida al curso",
                                         "tipo": "image/jpeg"
+                                    },
+                                    "tipo": "media"
+                                },
+                                {
+                                    "contenido": {
+                                        "ampliable": true,
+                                        "nombre": "christian-zionismAndPoliticalZionism-British-rothschildHijackOfUsChristianity.mp4",
+                                        "origen": "url",
+                                        "pie": "Pensando en las ventajas",
+                                        "ruta": "https://archive.org/download/christian-zionismAndPoliticalZionism-British-rothschildHijackOfUs/christian-zionismAndPoliticalZionism-British-rothschildHijackOfUsChristianity.mp4",
+                                        "style": "",
+                                        "titulo": "¿Lo mejor?",
+                                        "tipo": "video/mp4"
                                     },
                                     "tipo": "media"
                                 },
@@ -147,7 +161,7 @@
                             "componentes": [
                                 {
                                     "contenido": {
-                                        "texto": "<p class=\"ql-align-justify\">Nullam eget felis at nunc eleifend semper. Morbi vulputate mi ut augue hendrerit, vel laoreet massa tristique. Vestibulum congue venenatis nisl. Quisque finibus molestie sem, ac pharetra quam tincidunt ut. Etiam ut fermentum lorem. Nullam vitae purus nunc. Sed nisl ipsum, egestas a consectetur nec, iaculis vitae nibh. Ut molestie mattis volutpat. Nullam euismod vulputate libero, eget laoreet massa viverra et. Cras id faucibus nisl.</p><p class=\"ql-align-justify\"><br></p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque et justo at imperdiet. Curabitur pharetra finibus dignissim. Duis dictum aliquam mauris sit amet luctus. Suspendisse enim nibh, semper in quam at, lacinia rutrum tellus. Cras vel orci vel mauris volutpat hendrerit vitae nec purus. Pellentesque dictum nulla a risus ullamcorper congue.</p>"
+                                        "texto": "<p class=\"ql-align-justify\">Nullam eget felis at nunc eleifend semper. Morbi vulputate mi ut augue hendrerit, vel laoreet massa tristique. Vestibulum congue venenatis nisl. Quisque finibus molestie sem, ac pharetra quam tincidunt ut. Etiam ut fermentum lorem. Nullam vitae purus nunc. Sed nisl ipsum, egestas a consectetur nec, iaculis vitae nibh. Ut molestie mattis volutpat. Nullam euismod vulputate libero, eget laoreet massa viverra et. Cras id faucibus nisl.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque et justo at imperdiet. Curabitur pharetra finibus dignissim. Duis dictum aliquam mauris sit amet luctus. Suspendisse enim nibh, semper in quam at, lacinia rutrum tellus. Cras vel orci vel mauris volutpat hendrerit vitae nec purus. Pellentesque dictum nulla a risus ullamcorper congue.</p>"
                                     },
                                     "tipo": "texto-plano"
                                 }

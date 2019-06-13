@@ -32,12 +32,12 @@ export class IntroComponent implements OnInit {
             this.modulos = this.elementos.modulos;
             this.numMomentos = this.modulos[0].momentos.length;
             this.momentos = this.modulos[0].momentos;
-            var saltoColumna = this.saltoCol;
+            let saltoColumna = this.saltoCol;
             window.setTimeout(function() {
-                var altoContenido: number = 0;
-                var sumaAlto: number = 0;
-                var salCol: boolean = false;
-                var numCol:number = 0;
+                let altoContenido: number = 0;
+                let sumaAlto: number = 0;
+                let salCol: boolean = false;
+                let numCol:number = 0;
                 const inserta = document.getElementsByTagName('mdtk-inserta-html')[0];
                 for (let i = 0;i < inserta.children.length; i++) {
                     altoContenido += inserta.children[i].scrollHeight;
@@ -51,7 +51,6 @@ export class IntroComponent implements OnInit {
                         salCol = false;
                     }
                     saltoColumna.push(salCol);
-                    console.log(saltoColumna);
                 }
             },500);
         });

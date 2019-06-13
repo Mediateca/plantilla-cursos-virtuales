@@ -164,6 +164,19 @@
                                         "texto": "<p class=\"ql-align-justify\">Nullam eget felis at nunc eleifend semper. Morbi vulputate mi ut augue hendrerit, vel laoreet massa tristique. Vestibulum congue venenatis nisl. Quisque finibus molestie sem, ac pharetra quam tincidunt ut. Etiam ut fermentum lorem. Nullam vitae purus nunc. Sed nisl ipsum, egestas a consectetur nec, iaculis vitae nibh. Ut molestie mattis volutpat. Nullam euismod vulputate libero, eget laoreet massa viverra et. Cras id faucibus nisl.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque et justo at imperdiet. Curabitur pharetra finibus dignissim. Duis dictum aliquam mauris sit amet luctus. Suspendisse enim nibh, semper in quam at, lacinia rutrum tellus. Cras vel orci vel mauris volutpat hendrerit vitae nec purus. Pellentesque dictum nulla a risus ullamcorper congue.</p>"
                                     },
                                     "tipo": "texto-plano"
+                                },
+                                {
+                                    "contenido": {
+                                        "ampliable": true,
+                                        "nombre": "DhWsOasUcAE3k9A.jpg",
+                                        "origen": "local",
+                                        "pie": "Pensando en las ventajas",
+                                        "ruta": "https://pbs.twimg.com/media/DhWsOasUcAE3k9A.jpg",
+                                        "style": "",
+                                        "titulo": "Bienvenida al curso",
+                                        "tipo": "image/jpeg"
+                                    },
+                                    "tipo": "media"
                                 }
                             ],
                             "titulo": "Introducción"
